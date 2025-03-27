@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --brand_color: #EF5F4C;
+    --background_color:#FFFFFF;
+    --surface_color:#F5F5F5;
+    --skeleton_color:#D9D9D9;
+    --shape_transparency:#ffffff8f;
+    --text_color_primary:#313131;
+    --text_color_second:#6C6C6C;
+
+    --font_family: "Poppins", sans-serif;
+    --text_lg:bold 32px/125% var(--font_family);  /*Shorthand:  weight, size, lineheight, color*/
+    --text: 16px/150% var(--font_family);
+    --text_md: 14px/170% var(--font_family);
+    --text_sm: 12px/170% var(--font_family);
+}
+
+body{
+    font: var(--text);
+    color: var(--text_color_second);
+    background-color: var(--background_color);
+}
